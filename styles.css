@@ -1,0 +1,283 @@
+body {
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 2px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 1vh;
+}
+
+.head {
+  background: linear-gradient(to right, #8e74dc, #d50898);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 1vh 1vh 0vh 0vh;
+}
+
+.inner-form {
+  background: linear-gradient(to right, #f5ebff, #ffe3fe);
+  padding: 3vh;
+}
+
+
+
+.country {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.name {
+  display: flex;
+  gap: 32px;
+  /* space between columns */
+}
+
+.name>div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dob-group {
+  display: flex;
+  gap: 32px;  /* space between dropdowns */
+  margin-top: 12px;
+}
+
+.dob-group select {
+  width: 1800px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+}
+
+
+.address textarea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.embob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dob-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.embob {
+  display: flex;
+  gap: 32px;           /* space between email and mobile columns */
+}
+
+.embob > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.city {
+  display: flex;
+  gap: 32px;           /* space between email and mobile columns */
+}
+
+.city > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  max-width: 650px;
+}
+
+/* input filed */
+label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #666;
+   margin-left: 4px;
+  font-size: 15px;
+  color: #222;
+  vertical-align: middle;
+}
+
+input,
+option,
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #b39ddb;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #b39ddb;
+  outline: none;
+}
+
+select:focus {
+  border-color: #b39ddb;
+  outline: none;
+}
+
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-bottom: 2vh;
+}
+
+
+
+/* Table */
+
+.table {
+  margin-top: 16px;
+}
+.qualification-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 15px;
+}
+.qualification-table th {
+  background: #f4f6fb;
+  color: #888;
+  font-weight: 600;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+.qualification-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+.qualification-table input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+
+/* button */
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  /* space between buttons */
+  margin-top: 32px;
+}
+
+.reset-btn {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 8px 24px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(128, 0, 128, 0.06);
+  /* subtle violet shadow */
+  transition: border-color 0.2s;
+}
+
+.reset-btn:hover {
+  border-color: #d1c4e9;
+  /* light violet border */
+}
+
+.submit-btn {
+  background: linear-gradient(to right, #aa37f1, #ff69b4);
+  /* violet to pink */
+  color: #fff;
+  border: none;
+  padding: 8px 28px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(128, 0, 128, 0.12);
+  /* a bit stronger shadow */
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #c56ffa, #ec407a);
+}
+
+hr {
+  border: none;             /* Remove default border */
+  height: 1px;              /* Set height of the line */
+  background-color: rgb(255, 242, 242);    /* Set the color you want */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

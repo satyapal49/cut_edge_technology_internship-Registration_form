@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="head">Student Registration Form</h2>
+            <form action="#" method="post">
+                <div class="inner-form">
+                    <div class="form-group name">
+                        <div>
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" placeholder="Enter first name">
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" placeholder="Enter last name">
+                        </div>
+                    </div>
+                    <div class="form-group dob">
+                        <label>Date of Birth</label>
+                        <div class="dob-group">
+                            <select>
+                                <option value="" disabled selected>Choose Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                            <select>
+                                <option value="" disabled selected>Choose Month</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Apr</option>
+                                <option value="May">May</option>
+                                <option value="Jun">Jun</option>
+                                <option value="Jul">Jul</option>
+                                <option value="Aug">Aug</option>
+                                <option value="Sep">Sep</option>
+                            </select>
+                            <select>
+                                <option value="" disabled selected>Choose Year</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                                <option value="2007">2007</option>
+                                <option value="2008">2008</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group embob">
+                        <div>
+                            <label for="email">Email ID</label>
+                            <input type="email" id="email" placeholder="Enter email address">
+                        </div>
+                        <div>
+                            <label for="mobile">Mobile Number</label>
+                            <input type="tel" id="mobile" placeholder="Enter 10-digit mobile number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female"><label
+                                for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group address">
+                        <label for="address">Address</label>
+                        <textarea id="address" placeholder="Enter your full address" rows="4"></textarea>
+                    </div><br>
+                    <div class="form-group city">
+                        <div>
+                            <label for="city">City</label>
+                            <input type="text" id="city" placeholder="Enter city">
+                        </div>
+                        <div>
+                            <label for="pinCode">PIN Code</label>
+                            <input type="text" id="pinCode" placeholder="Enter 6-digit PIN code">
+                        </div>
+                        <div>
+                            <label for="state">State</label>
+                            <input type="text" id="state" placeholder="Enter state">
+                        </div>
+                    </div>
+                    <div class="form-group country">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="" disabled selected> Choose country</option>
+                            <option value="India">India</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </div>
+                    <div class="form-group hobbies">
+                        <label>Hobbies</label>
+                        <div class="checkbox-group">
+                            <div><input type="checkbox" id="drawing"><label for="drawing">Drawing</label></div>
+                            <div><input type="checkbox" id="singing"><label for="singing">Singing</label></div>
+                            <div><input type="checkbox" id="dancing"><label for="dancing">Dancing</label></div>
+                            <div><input type="checkbox" id="sketching"><label for="sketching">Sketching</label></div>
+                            <div><input type="checkbox" id="others"><label for="others">Others</label></div>
+                        </div>
+                    </div>
+                    <div class="form-group table">
+                        <label>Qualification</label>
+                        <table class="qualification-table">
+                            <thead>
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Examination</th>
+                                    <th>Board</th>
+                                    <th>Percentage</th>
+                                    <th>Year of Passing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Class X</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Class XII</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Graduation</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Masters</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br>
+                    <div class="form-group">
+                        <label>Courses Applied For</label>
+                        <div class="radio-group">
+                            <input type="radio" id="bca" name="course" value="bca"><label for="bca">BCA</label>
+                            <input type="radio" id="bcom" name="course" value="bcom"><label for="bcom">B.Com</label>
+                            <input type="radio" id="bsc" name="course" value="bsc"><label for="bsc">B.Sc</label>
+                            <input type="radio" id="ba" name="course" value="ba"><label for="ba">B.A</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-actions">
+                        <button type="reset" class="reset-btn">Reset</button>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
